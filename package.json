@@ -1,0 +1,19 @@
+{
+  "name": "hacking-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.7",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "nodemon": "^2.0.21",
+    "tronweb": "^5.1.0",
+    "web3": "^1.8.2"
+  }
+}
